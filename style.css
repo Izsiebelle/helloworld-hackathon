@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+.hero-image{
+  background-image:  url("assets/images/code1.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#main-title {
+  color: #bd7a21;
+  font-family: "Amatic SC", cursive;
+  font-size: 100px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+#sub-title{
+  color: #597332;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0;
+}
+
+nav {
+  display: flexbox;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 10px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #423f3f;
+}
+
+nav a:hover {
+  color: #a2a2a2;
+}
+
+.header-img{
+  height: 400px;
+}
+
+.hackathon{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.section-heading{
+  font-size: 30px;
+  color: #3C4959;
+  text-align: center;
+  font-family: "Kodchasan", sans-serif;
+  margin-top: 20px;
+  grid-column: 1/ span 2;
+}
+
+.title{
+  color: #597332;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 90%;
+  grid-column: 1;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text{
+  color: #191C26;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 18px;
+  margin-left: 50px;
+  width: 90%;
+  grid-column: 1;
+}
+
+.image-about{
+  display: flex;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.about-image{
+  width: 90%;
+
+}
