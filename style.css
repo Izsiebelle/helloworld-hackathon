@@ -188,7 +188,7 @@ nav a:hover {
 
 .question{
   text-align: center;
-  font-size: 24px;
+  font-size: 36px;
   font-family: 'Josefin Slab', serif;
   color: #597332;
   margin-top: 5px;
@@ -198,6 +198,7 @@ nav a:hover {
 
 .answer{
   text-align: center;
+  font-size: 36px;
   color: #bd7a21;
   font-family: 'Josefin Slab', serif;
   margin: 30px;
