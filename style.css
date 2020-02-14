@@ -169,6 +169,8 @@ nav a:hover {
 
 .register-article{
   background-color: #EAEAEA;
+  padding: 0em 7em 7em 7em;
+  
 }
 
 .register-info{
@@ -182,7 +184,15 @@ nav a:hover {
 }
 
 .faqarticle{
+  margin: 1em;
+}
 
+.sub-header {
+  color: #3C4959;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  margin: 30px;
+  grid-column: 1/ span 2;
 }
 
 
@@ -203,4 +213,9 @@ nav a:hover {
   font-family: 'Josefin Slab', serif;
   margin: 30px;
   list-style: none;
+}
+
+.sponsor-img {
+  width: 30em;
+  margin: 1em;
 }
