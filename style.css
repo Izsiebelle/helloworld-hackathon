@@ -170,17 +170,26 @@ nav a:hover {
 .register-article{
   background-color: #EAEAEA;
   padding: 0em 7em 7em 7em;
-  
+  display: inline-block;
+
 }
 
 .register-info{
-  height: 200px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 50%;
+  text-align: center;
+}
+
+#special-heading {
+
 }
 
 .register-text{
   text-align: center;
   font-family: 'Josefin Slab', serif;
   font-size: 24px;
+  grid-column: 1/ span 2;
 }
 
 .faqarticle{
